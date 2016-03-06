@@ -1,0 +1,9 @@
+<template name="projectList">
+    &nbsp; {{#each list}} {{>projectListItem}} {{/each}}
+</template>
+
+<template name="projectListItem">
+    <p>
+        <a name="selectProject" href="#">{{name}}</a>
+    </p>
+</template>
